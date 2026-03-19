@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="description" content="Contact SDG PH">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+  <title>Contact - SDG PH</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <h1>Contact Us</h1>
+<header class="navbar">
+  <h1>SDG PH</h1>
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">Programs</a>
@@ -19,21 +19,19 @@
   </nav>
 </header>
 
-<section class="contact">
-  <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="team">
-
+<section class="contact-container">
   <form onsubmit="return validateForm()">
-    <h2>Get in Touch</h2>
-    <input type="text" id="name" placeholder="Your Name">
-    <input type="email" id="email" placeholder="Your Email">
-    <textarea id="message" placeholder="Your Message"></textarea>
+    <h2>Contact Us</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <textarea id="message" placeholder="Message"></textarea>
     <button type="submit">Send</button>
     <p id="error"></p>
   </form>
 </section>
 
 <footer>
-  <p>&copy; 2026 SDG PH</p>
+  <p>© 2026 SDG PH</p>
 </footer>
 
 <script src="script.js"></script>
