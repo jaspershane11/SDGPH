@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Contact SDG PH">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,29 +13,27 @@
 <header>
   <h1>Contact Us</h1>
   <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">Programs</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <a href="index.html">Home</a>
+    <a href="about.html">Programs</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<section>
-  <h2>Send us a message</h2>
+<section class="contact">
+  <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="team">
 
   <form onsubmit="return validateForm()">
+    <h2>Get in Touch</h2>
     <input type="text" id="name" placeholder="Your Name">
     <input type="email" id="email" placeholder="Your Email">
     <textarea id="message" placeholder="Your Message"></textarea>
-    <button type="submit">Submit</button>
+    <button type="submit">Send</button>
+    <p id="error"></p>
   </form>
-
-  <p id="error"></p>
 </section>
 
 <footer>
-  <p>&copy; 2026 EcoFuture PH</p>
+  <p>&copy; 2026 SDG PH</p>
 </footer>
 
 <script src="script.js"></script>
